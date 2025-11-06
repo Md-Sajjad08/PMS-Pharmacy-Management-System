@@ -1,0 +1,148 @@
+body{
+	font-family:Arial;
+	background-image:url("background.jpg");
+	background-size:cover;
+	overflow:hidden;
+}
+
+.logo-top-right {
+  position: absolute;        /* Allows you to pin it */
+  top: 4px;                 /* Adjust vertical distance from top */
+  left: 1cm;              /* Adjust horizontal distance from right */
+  z-index: 10;               /* Keeps it above other elements */
+}
+.logo-img {
+  height: 150px;
+  width: 150px;
+  margin-bottom: 10px; /* optional fine-tune */
+  
+}
+.seva-text {
+  display: flex;
+  align-items: flex-end; /* aligns SEVA and PHARMA to bottom */
+  gap: 4px;
+}
+
+.seva-word {
+  font-weight: bold;
+  margin-left: 10px;
+}
+
+.pharma-word {
+  font-style: bold;
+  color: #3a7ca5;
+  
+}
+.header {
+  padding: 10px;
+  margin:-10px;
+  text-align: center;
+   background: rgba(23, 29, 80, 0.6);;
+  color: white;
+  font-size: 20px;
+  overflow:hidden;
+  border-radius: 15px;
+}
+
+.footer {
+   position: fixed;
+   left: 0;
+   bottom: 0;
+   width: 100%;
+   right:0;
+   background-color: #f4f8f5;
+   color: white;
+   justify-content: center;
+   text-align: center;
+   overflow:hidden;
+   height: 40px;
+   font-size: 14px;
+}
+
+
+.container{
+    width:30%;
+	margin:auto;
+	background-color:white;
+	
+}
+
+.login-info {
+  font-size: 20px;
+  color: #333;
+  margin-bottom: 10px;
+  text-align: right;
+  font-family: Arial,sans-serif;
+}
+
+
+#div_login{
+    border:1px solid gray;
+    border-radius: 3px;
+    width: 30%px;
+    height: 280px;
+    box-shadow: 0px 2px 2px 0px  gray;
+    margin: 0 auto;
+}
+
+/*#div_login h1{
+    margin-top: 0px;
+    font-weight: normal;
+    padding: 10px;
+    background-color: #676f77;
+    color: rgb(7, 0, 0);
+    font-family: sans-serif;
+}*/
+
+.seva-brand {
+  display: flex;
+  text-align: right;
+  justify-content: flex-end; /* moves to right */
+  margin-right: 4.5cm;
+  margin-bottom: 35px;
+  color: white;
+  gap:2px;
+  font-weight: bold;
+  font-size: 36px;
+  font-family: 'Georgia', serif;
+  text-shadow: 
+    -1px -1px 0 #0f3460,  
+     1px -1px 0 #0f3460,
+    -1px  1px 0 #0f3460,
+     1px  1px 0 #0f3460;
+}
+
+
+.pharma-word {
+  color: #0f3460;  /* Dark blue */
+  font-weight: bold;
+  font-size: 40px; /* Smaller than SEVA */
+  font-family: 'Arial', sans-serif;
+  margin-left: 8px;
+  -webkit-text-stroke: 0.2px white;
+}
+
+
+#div_login div{
+    clear: both;
+    margin-top: 10px;
+    padding: 5px;
+	padding-right: 15px;
+}
+
+#div_login .textbox{
+    width: 90%;
+    padding: 7px;
+	 
+}
+
+input[type=submit]{
+  background-color: #1f333d;
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  display:inline-block;
+  margin-top:5px;
+}

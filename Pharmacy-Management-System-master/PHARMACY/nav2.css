@@ -1,0 +1,180 @@
+.header {
+  padding: 60px;
+  text-align: center;
+  background: #1abc9c;
+  color: white;
+  font-size: 30px;
+  margin: 0;
+}
+
+.top-border {
+    width: 100%;
+    height: 6px; /* Adjust thickness */
+    background: #164e20; /* Or use gradients, images, etc. */
+    margin: 0;
+    margin-top: -25px;
+    border-radius: 2cm;
+}
+.sidenav {
+  height: 100%;
+  width: 240px;;
+  position: fixed;
+  background-color: #fcfafa;
+  z-index: 1;
+  top: 0;
+  left: 0;
+  
+  padding-top: 100px;
+  padding-left:5px;
+  font-family:Arial;
+  overflow-x: hidden;
+  box-shadow: 0 2px 5px rgba(0,0,0,0.2);
+  
+}
+
+/* Logo Section */
+.logo-container {
+  text-align: center;
+  padding: 20px 0 10px 0;  /* Increased top padding */
+  margin-top: -100px;       /* Move it slightly upwards */
+  margin-bottom: 10px;
+  border-bottom: 3px solid #ddd;
+}
+
+.sidebar-logo {
+  width: 150px;
+  height: 150px;
+  border-radius: 6px;
+}
+
+.brand-name {
+  font-size: 14px;
+  color: #333;
+  font-weight: bold;
+  margin-top: -14px;
+}
+
+
+.sidenav a,
+.dropdown-btn {
+  padding: 10px 14px;
+  font-size: 15px; /* Smaller font */
+  margin: 6px 10px;
+  border-radius: 6px;
+  background-color: #5463b6;
+  color: #ffffff;
+  display: block;
+  text-decoration: none;
+  transition: background-color 0.3s ease;
+  box-shadow: 0 1px 3px rgba(0,0,0,0.1);
+  cursor: pointer;
+}
+.sidenav a:hover,
+.dropdown-btn:hover {
+  background-color: #18523a;
+}
+.dropdown-container {
+  display: none;
+  background-color: #f9f9f9;
+  padding: 4px 10px;
+  margin: 4px 10px 8px;
+  border-radius: 6px;
+  box-shadow: inset 0 0 4px rgba(0,0,0,0.1);
+}
+
+.dropdown-container a {
+  font-size: 13px;
+  padding: 6px;
+  margin: 4px 0;
+  background-color: transparent;
+  border-radius: 5px;
+  color: #333;
+}
+
+.dropdown-container a:hover {
+  background-color: #cbc5c4;
+}
+
+
+
+.active {
+  background-color: #99f5f7;
+  color: rgb(10, 0, 0);
+}
+
+
+/*.dropdown-container {
+  display: none;
+  background-color: #004d99;
+  padding-left: 8px;
+}*/
+
+
+
+i.down {
+  float: right;
+  margin-top: 3px;
+  border: solid white;
+  border-width: 0 2px 2px 0;
+  padding: 3px;
+  transform: rotate(45deg);
+  transition: transform 0.3s ease;
+}
+
+
+
+@media screen and (max-height: 450px) {
+  .sidenav {padding-top: 15px;}
+  .sidenav a {font-size: 18px;}
+}
+
+
+div.head {
+width:78%;
+font-family:Arial;
+background-color:#e6e6e6;
+color:#003366;
+float:right;
+margin-top:80px;
+margin-right:53px;
+margin-left:0px;
+top: 0;
+right: 0;
+overflow:hidden;
+}
+
+ .logout-btn {
+            position: fixed;
+            top: 10px; /* Adjust distance from top */
+            right: 20px; /* Adjust distance from right */
+            padding: 8px 15px;
+            background: #f44336; /* Red color */
+            color: white;
+            border: none;
+            border-radius: 4px;
+            cursor: pointer;
+            z-index: 1001; /* Ensures it's above the line */
+            font-family: Arial, sans-serif;
+        }
+
+.logout-btn:hover {
+            background: #d32f2f; /* Darker red */
+        }
+
+.top-line {
+            position: fixed;
+            top: 50px; /* Adjust based on button height */
+            left: 0;
+            width: 100%;
+            height: 2px;
+            background: #000;
+            z-index: 1000;
+        }
+
+
+
+.main-content {
+  margin-left: 190px;
+  margin-top: 20px;
+  padding: 20px;
+}
